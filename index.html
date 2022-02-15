@@ -10,34 +10,20 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Community Board</title>
 </head>
 
 <body>
     <header>
+        <h1>Community Board</h1>
+        <div id="nav" class="'gutter-right">
+            <button id="auth-button"></button>
+            <button id="create">Create</button>
+        </div>
        
       </header>
-    <main class="auth-main">
-        <div class="left">
-            <div class="auth-container">
-                <form id="sign-in">
-                    <h3>Sign In</h3>
-                    <label>Email </label><input type="email" name="email" id="sign-in-email"/>
-                    <label>Password </label><input type="password" name="password" id="sign-in-password"/>
-                    <button>Submit</button>
-                </form>
-            </div>
-        </div>
-        <div class="right">
-            <div class="auth-container">
-                <form id='sign-up'>
-                    <h3>Sign Up</h3>
-                    <label>Email </label><input type='email' name='email' id="sign-up-email" />
-                    <label>Password </label><input type='password' name='password' id="sign-up-password" />
-                    <button>Submit</button>
-                </form>
-            </div>
-        </div>
+    <main>
+        <div id="bullentin-board"></div>
     </main>
     <footer>
         
