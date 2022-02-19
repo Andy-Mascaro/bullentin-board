@@ -15,14 +15,29 @@
 
 <body>
     <header>
-        <h1>Community Board</h1>
+        <h1>Make Your Posts Here</h1>
         <div id="nav" class="'gutter-right">
-            <button id="auth-button"></button>
-            <button id="create">Create</button>
+            <button id="logout">Logout</button>
+            <button id="home">Home</button>
         </div>
        
       </header>
     <main>
+        <form id="post-form">
+            <label for="title">
+                <div>Title</div>
+                <input type="text" name="title" id="title"/>
+            </label>
+            <label for="description">
+                <div>Description</div>
+                <input type="text" name="title" id="title"/>
+            </label>
+            <label for="contact">
+                <div>Contact</div>
+                <input type="text" name="title" id="title"/>
+            </label>
+            <button>Save</button>
+        </form>
         <div id="bulletin-board"></div>
     </main>
     <footer>
