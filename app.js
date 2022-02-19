@@ -2,7 +2,7 @@ import { getPosts, getUser, logout } from './fetch-utils.js';
 import { renderSheets } from './render-utils.js';
 
 const bulletin = document.getElementById('bulletin-board');
-const authButton = document.getElementById('authButton');
+const authButton = document.getElementById('auth-Button');
 const createButton = document.getElementById('create');  
 
 window.addEventListener('load', async () => {
@@ -12,12 +12,12 @@ window.addEventListener('load', async () => {
         authButton.textContent = 'Logout';
     } else {
         authButton.addEventListener('click', () => {
-            location.replace('/auth'); 
+            location.replace('./auth'); 
         });
         authButton.textContent = 'Login';
     }
     createButton.addEventListener('click', () => {
-        location.replace('/create');
+        location.replace('./posts');
     });
     const posts = await getPosts();
     for (let post of posts) {

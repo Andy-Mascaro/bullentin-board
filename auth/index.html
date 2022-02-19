@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <title>Community Board</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link
+         href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>Sign Up or Sign In</title>
 </head>
 
 <body>
-    <header>
-        <h1>Community Board</h1>
-        <div id="nav" class="'gutter-right">
-            <button id="auth-button"></button>
-            <button id="create">Create</button>
-        </div>
-       
-      </header>
-      <main class="auth-main">
+    <main class="auth-main">
         <div class="left">
             <div class="auth-container">
                 <form id="sign-in">
@@ -44,10 +37,8 @@
             </div>
         </div>
     </main>
-    <footer>
-        
-    </footer>
-    <script type="module" src="./app.js"></script>
+    
+    <script type="module" src="./auth.js"></script>
 </body>
 
 </html>
