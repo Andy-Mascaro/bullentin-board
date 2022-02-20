@@ -5,9 +5,10 @@ export function renderSheets(post) {
     const h3 = document.createElement('h3');
 
     div.classList.add('post-it');
-    p1.textContent = post.description;
-    p2.textContent = post.contact;
-    h3.textContent = post.title;
+    p1.textContent = post.title;
+    p2.textContent = post.description;
+    h3.textContent = post.contact;
+    
 
     p2.classList.add('contact');
 

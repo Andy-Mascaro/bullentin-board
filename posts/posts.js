@@ -1,6 +1,6 @@
 import { logout, checkAuth, createPost } from '../fetch-utils.js';
 
-checkAuth();
+// checkAuth();
 const listForm = document.getElementById ('post-form'); 
 
 

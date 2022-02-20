@@ -10,12 +10,12 @@ export async function getUser() {
 export async function checkAuth() {
     const user = await getUser();
 
-    if (!user) location.replace('/auth');
+    if (!user) location.replace('../auth');
 }
 
 export async function redirectIfLoggedIn() {
     if (await getUser()) {
-        location.replace('/');
+        location.replace('../posts');
     }
 }
 
@@ -34,7 +34,7 @@ export async function signInUser(email, password) {
 export async function logout() {
     await client.auth.signOut();
 
-    return (window.location.href = '/');
+    return (window.location.href = '../index.html');
 }
 
 

@@ -8,7 +8,7 @@ const signUpForm = document.getElementById('sign-up-form');
 const signUpEmail = document.getElementById('sign-up-email');
 const signUpPassword = document.getElementById('sign-up-password');
 
-redirectIfLoggedIn();
+// redirectIfLoggedIn();
 
 signUpForm.addEventListener('submit', async (e) => {
     e.preventDefault();
