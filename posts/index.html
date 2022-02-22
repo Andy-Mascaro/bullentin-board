@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../styles/reset.css"> -->
-    <link rel="stylesheet" href="../styles/style.css">
+    <!-- <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css"> -->
     <link rel="stylesheet" href="./posts.css">
     
     <title>Community Board</title>
@@ -18,27 +18,27 @@
     <header>
         <h1>Make Your Posts Here</h1>
         <div id="nav" class="'gutter-right">
+            <a href="/index.html">Home</a>
+
             <button id="logout">Logout</button>
         </div>
        
       </header>
     <main>
         <form id="post-form">
-            <label id="title">
-                <div>Title</div>
+            
+                <h3>Title</h3>
                 <input type="text" name="title" id="title"/>
-            </label>
-            <label id="description">
-                <div>Description</div>
-                <input type="text" name="document" id="document"/>
-            </label>
-            <label id="contact">
-                <div>Contact</div>
+           
+                <h3>Description</h3>
+                <input type="text" name="document" id="description"/>
+           
+                <h3>Contact</h3>
                 <input type="text" name="contact" id="contact"/>
-            </label>
+           
             <button>Save</button>
         </form>
-        <!-- <div id="bulletin-board"></div> -->
+        
     </main>
     <footer>
         

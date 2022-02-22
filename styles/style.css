@@ -1,23 +1,37 @@
-
+body{
+    
+    overflow: hidden;
+    background: url(../assets/board.png) no-repeat  center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
 
 main {
-    
+
    
-        background: url(../assets/board.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
       
 }
 
 
+
+
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    
 }
  
  h1 {
@@ -27,19 +41,24 @@ header {
 
 .post-it{
      background-image: url(../assets/post.png);
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    height: 800px;
-    width: 200px;
-    font-size: 1em;
-    background-repeat: no-repeat;
-    ;
+     width:145px;
+     padding-top:10px;
+     padding-left:3px;
+     padding-bottom:10px;
+     word-wrap: break-word;
+     margin:20px;
+     background-repeat: no-repeat;
+     position:relative; 
+     left:-650px;
+     top:-80px;
+}
+a {
+    font-weight: bolder;
+    color:black;
+    position: relative;
+    top:30px;
+    right: -500px;
+    margin: 15px;
 }
 
-.auth-main{
-    max-width: max-content;
-    margin: auto;
     
-}

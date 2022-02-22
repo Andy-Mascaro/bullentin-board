@@ -43,10 +43,12 @@ export async function getPosts() {
     return checkError(resp);
 }
 
-export async function createPost(post) {
+export async function createPosts(post) {
     const resp = await client.from('posts').insert(post);
     return checkError(resp);
 }
+
+
 
 function checkError({ data, error }) {
     return error ? console.error(error) : data;

@@ -13,14 +13,25 @@ main {
    background-repeat: no-repeat;
    background-position: center; 
    background-size: cover;
+   background-color: transparent;
+}
+
+h1{
+  position: relative;
+  right:-630px;
 }
 
 
-.post-form{
-  align-content: center;
-  text-align: center;
+a{
+  font-weight: bolder;
+  color: black;
+  margin:5px;
+  position: relative;
+  right: -300px;
 }
 
+.logout{
+  position: relative;
+  right: -800px;
 
-
-
+}
