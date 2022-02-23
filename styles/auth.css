@@ -10,13 +10,18 @@ main {
    font-size: larger;
    justify-content: center;
    background-repeat: no-repeat;
-   background-position: center; 
-   background-size: cover;
-   padding-inline: inherit;
+   background-position: center;
+    
+  
+   
+}
+
+html{
+  background-color: mediumturquoise;
 }
 
 
-.post-form{
+/* .post-form{
   align-content: center;
   text-align: center;
-}
+} */

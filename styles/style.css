@@ -16,9 +16,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+/*    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
       
 }
 
@@ -28,7 +28,7 @@ main {
 header {
     display: flex;
     justify-content: center;
-    background-color: var(--color3);
+    /* background-color: var(--color3); */
     height: var(--header-height);
     box-shadow: var(--shadow);
     
@@ -41,7 +41,16 @@ header {
 
 .post-it{
      background-image: url(../assets/post.png);
-     width:145px;
+     padding: 10px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px black;
+   
+     /* width:145px;
      padding-top:10px;
      padding-left:3px;
      padding-bottom:10px;
@@ -50,7 +59,7 @@ header {
      background-repeat: no-repeat;
      position:relative; 
      left:-650px;
-     top:-80px;
+     top:-80px; */
 }
 a {
     font-weight: bolder;
@@ -60,5 +69,37 @@ a {
     right: -500px;
     margin: 15px;
 }
+/* .note-detail {
+    /* font-size: 1.5rem; */
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px black;
+    background-color: yellowgreen;
+    
+    /* width: 200px;
+    height: 200px; */
+    
+/* } */
+
+/* .note-detail p {
+    font-size: medium;
+    font-weight: bolder;
+} */ 
+
+/* a:link, a:visited {
+    background-color: #8f807f;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+  } */
+
 
     

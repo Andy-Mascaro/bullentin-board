@@ -4,7 +4,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    /* background-size: contain; */
+     /* background-size: contain;  */
     align-content: flex-start;
     position: relative;
     color: black;
@@ -13,13 +13,11 @@ main {
    background-repeat: no-repeat;
    background-position: center; 
    background-size: cover;
-   background-color: transparent;
+   
+  
 }
 
-h1{
-  position: relative;
-  right:-630px;
-}
+
 
 
 a{
@@ -31,7 +29,13 @@ a{
 }
 
 .logout{
-  position: relative;
+  position: fixed;
   right: -800px;
 
 }
+
+html {
+  background-color: rgb(8, 216, 231);
+}
+
+
