@@ -1,0 +1,41 @@
+main {
+    
+    background-image: url(../assets/post.png);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+     /* background-size: contain;  */
+    align-content: flex-start;
+    position: relative;
+    color: black;
+   /* font-size: larger; */
+   justify-content: center;
+   background-repeat: no-repeat;
+   background-position: center; 
+   background-size: cover;
+   
+  
+}
+
+
+
+
+a{
+  font-weight: bolder;
+  color: black;
+  margin:5px;
+  position: relative;
+  right: -300px;
+}
+
+.logout{
+  position: fixed;
+  right: -800px;
+
+}
+
+html {
+  background-color: rgb(80, 107, 180);
+}
+
+
